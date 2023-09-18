@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap%27');
+
+body {
+    padding: 50px;
+    background-color: black;
+    color: white;
+    /* font-family: 'Oxygen', sans-serif; */
+    /* font-family: 'Overpass', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #16060D;
+}
+
+.header {
+    background-color: rgb(167, 56, 84);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.sitetitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    text-shadow: 3px 3px 3px #000000;
+    letter-spacing: 8px;
+}
+
+
+.imagebar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-height: 100%;
+}
+
+.marioimage,
+.goombaimage {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.marioimage>img {
+    max-width: 90%;
+}
+
+.goombaimage>img {
+    max-width: 60%;
+}
+
+.menubar {
+    background-color: rgb(167, 56, 84);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vmin;
+    font-size: 1.8vw;
+    text-shadow: 2px 2px 2px #000000;
+    letter-spacing: 3px;
+}
+
+.menubar>span>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menubar>span {
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menubar>span:hover {
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 1px solid #D46A97;
+    text-shadow: 1px 1px 1px #939393;
+    transition: 0.1s;
+}
+
+.content {
+    background-color: #16060D;
+    padding: 2%;
+    gap: 1%;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+
+.pizzaflex {
+    background-color: #16060D;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pizza {
+    background-color: #712446;
+    border: 1px solid #D46A97;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 0.01fr 0.8fr auto 0.5fr;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.pizza:hover {
+    background-color: #D46A97;
+}
+
+.addToCartButton,
+button {
+    color: white;
+    background-color: #D46A97;
+    height: 38px;
+    width: 35%;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px black;
+    float: right;
+    margin-bottom: 3px;
+}
+
+#orderform>button {
+    float: none;
+    display: block;
+    margin: 20px auto;
+}
+
+.addToCartButton:active,
+button:active {
+    margin-top: 3px;
+    margin-bottom: 0px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.addToCartButton:hover {
+    background-color: #712446;
+}
+
+#orderform>button:active {
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+
+.pizzaimage {
+    margin: 0 auto;
+}
+
+.pizzaimage>img {
+    width: 18vw;
+}
+
+#cart {
+    display: grid;
+    grid-template-columns: 6.5fr 2fr 2fr 1fr;
+    font-size: 1.5vw;
+}
+
+.quantity {
+    margin-top: 2px;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+}
+
+form>input {
+    margin: 2px auto;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+#orderform {
+    background-color: #712446;
+    margin: 5px;
+    border: 1px solid #D46A97;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.footer {
+    background-color: rgb(167, 56, 84);
+    justify-content: space-around;
+    padding: 2vmin;
+    font-size: 2.3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-height: 100%;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.restaurantAddress>img {
+    width: 70%;
+    height: 70%;
+}
+
+.fontSize {
+    font-size: 1.4vw;
+}
+
+label {
+    display: block;
+    margin-top: 12px
+}
+
+input {
+    display: block;
+    width: 85%;
+    padding: 8px
+}
+
+div>input {
+    display: inline-block;
+    padding: 0px;
+}
+
+input[type='number'] {
+    width: 40px;
+}
+
+.allergens {
+    text-align: right;
+    height: 30px;
+}
+
+.allergens>span>img {
+    height: 90%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 100%;
+}
+
+.allergens>span {
+    position: relative;
+}
+
+.allergens>span:hover {
+    height: 100%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 100%;
+    transition: 0.2s;
+    cursor: help;
+}
+
+.allergens>span:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    top: 25px;
+    left: 0px;
+    background: rgb(167, 56, 84);
+    border-radius: 20px;
+}
+
+.pizzaClassContainer {
+    position: relative;
+}
+
+.ingredients {
+    font-size: 18px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.fontSize>a {
+    color: white;
+    text-decoration: none;
+}
+
+.fontSize>a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#totalCost {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    font-size: 2vw;
+}
+
+.bins {
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.bins:active {
+    margin-top: 3px;
+    margin-bottom: 0px;
+}

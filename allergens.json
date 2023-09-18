@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "EN": "gluten",
+            "HU": "glutén"
+        }
+    },
+    {
+        "id": 2,
+        "name": {
+            "EN": "crustaceans",
+            "HU": "rák-, és kagylófélék"
+        }
+    },
+    {
+        "id": 3,
+        "name": {
+            "EN": "eggs",
+            "HU": "tojás"
+        }
+    },
+    {
+        "id": 4,
+        "name": {
+            "EN": "fish",
+            "HU": "hal"
+        }
+    },
+    {
+        "id": 5,
+        "name": {
+            "EN": "peanuts",
+            "HU": "földimogyoró"
+        }
+    },
+    {
+        "id": 6,
+        "name": {
+            "EN": "soybeans",
+            "HU": "szójabab"
+        }
+    },
+    {
+        "id": 7,
+        "name": {
+            "EN": "milk",
+            "HU": "tej"
+        }
+    },
+    {
+        "id": 8,
+        "name": {
+            "EN": "nuts",
+            "HU": "diófélék"
+        }
+    },
+    {
+        "id": 9,
+        "name": {
+            "EN": "celery",
+            "HU": "zeller"
+        }
+    },
+    {
+        "id": 10,
+        "name": {
+            "EN": "mustard",
+            "HU": "mustár"
+        }
+    },
+    {
+        "id": 11,
+        "name": {
+            "EN": "sesame seeds",
+            "HU": "szezámmag"
+        }
+    },
+    {
+        "id": 12,
+        "name": {
+            "EN": "sulphur dioxide and sulphites",
+            "HU": "kéndioxid és szulfitok"
+        }
+    },
+    {
+        "id": 13,
+        "name": {
+            "EN": "lupin",
+            "HU": "csillagfürt"
+        }
+    },
+    {
+        "id": 14,
+        "name": {
+            "EN": "mollucs",
+            "HU": "puhatestűek"
+        }
+    }
+]
